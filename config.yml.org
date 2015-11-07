@@ -1,0 +1,9 @@
+app_id:
+ - your_app_id
+
+slack:
+  token: your_token
+  username: lambda_bot
+  channel: your_slack_channel
+  icon_url: None
+  icon_emoji: ":slack:"
