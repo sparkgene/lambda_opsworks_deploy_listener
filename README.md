@@ -64,6 +64,12 @@ If post do not appear to your channel, set `channel id` to `channel`.
 
 ## Caution
 
+Rate frequencies of less than five minutes are not supported on AWS Lambda.
+
+http://docs.aws.amazon.com/lambda/latest/dg/getting-started-scheduled-events.html
+
+If the deploy start and finish between the execution of Lambda function, nothing will post to Slack.
+
 Using this scripts on AWS is not free.
 
 [Amazon DynamoDB Pricing](https://aws.amazon.com/dynamodb/pricing/)
